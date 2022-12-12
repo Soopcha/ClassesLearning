@@ -8,6 +8,8 @@ public class ThisComputer {
         private String name;
 
         ThisComputer(){}; // ещё один конструктор для того, чтобы не возникал если мы не хотим задавать всякие параметры
+    // ещё можно было бы public прописать
+    // Вообще если бы вообще не было НИКАКИХ конструкторов,то он бы создался автоматически
 
         ThisComputer(int memory, int cpu,String name){
             this.memory = memory; // когда создаём новый пк, значение memory затрагиваем через this
